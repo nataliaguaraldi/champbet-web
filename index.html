@@ -19,7 +19,7 @@
 		<p id="logo">ChampBet!</p>
 
 		<div id="headerLogin">
-			<form method="post">
+			<form method="post" action="login.cgi">
 				<p>LOGIN:</p>
 				<input type="email" placeholder="E-mail">
 				<input type="password" placeholder="Password">
@@ -56,15 +56,18 @@
 			<br><br><br>
 			
 			<div id="loginform">
-			<form method="post">
+			<form method="post" action="register.html">
 				
 				<p id="loginFormTitle">Join Now!</p>
 				<br>
 				<p><input type="email" placeholder="E-mail"></p>
 				<p><input type="password" placeholder="Password"></p>
 				<br>
-				<p><input type="button" value="Join!"></p>
-				<p><input type="button" value="Already a member? Sign in"></p>
+				<p><input type="submit" value="Join!"></p>
+			</form>
+
+			<form method="post" action="login.html">
+				<p><input type="submit" value="Already a member? Sign in"></p>
 			
 			</form>
 			</div>
